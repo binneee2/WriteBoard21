@@ -95,7 +95,7 @@ public class WriteDTO {
 		this.regDate = regDate;
 	}
 	
-	public String getRegDateTime() {
+	public String getRegDateTime() { 
 		if(this.regDate == null) return "";
 		return this.regDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss"));
 	}
